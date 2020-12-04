@@ -49,4 +49,4 @@ echo 1 > /dev/myled0 : LED点滅(信号機表現３回ループ)
 
 ---
 ### 動画
-実行時のデバイスの様子 : [https://youtu.be/3yTn8k5FCRs](https://youtu.be/3yTn8k5FCRs)
+デバイスの様子 : [https://youtu.be/3yTn8k5FCRs](https://youtu.be/3yTn8k5FCRs)
