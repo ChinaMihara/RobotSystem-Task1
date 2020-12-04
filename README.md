@@ -14,7 +14,7 @@
 コード：[https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c](https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c)  
   
 LED５つを点滅させ、信号機(車道用、歩道用)を表現しました。  
-各LEDとGPIOの接続は以下の表のようにしました。
+各LEDとGPIOの接続は以下のとおりになっています。
 | |車道用|歩道用|
 |------|--------|--------|
 |青(緑)| GPIO4  | GPIO12 |
@@ -22,7 +22,7 @@ LED５つを点滅させ、信号機(車道用、歩道用)を表現しました
 |赤    | GPIO25 | GPIO26 |
 
 echo 0 > /dev/myled0 : 全LED消灯  
-echo 1 > /dev/myled0 : LED点滅(信号機表現)  
+echo 1 > /dev/myled0 : LED点滅(信号機表現３回ループ)  
 
 ---
 
