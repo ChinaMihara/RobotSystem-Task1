@@ -13,9 +13,9 @@
 
 コード：[https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c](https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c)  
   
-LED５つを点滅させ信号機(車道用、歩道用)を表現しました。  
+LED５つを点滅させ、信号機(車道用、歩道用)を表現しました。  
 echo 0 > /dev/myled0 : 全LED消灯  
-echo 1 > /dev/myled0 : LED点滅  
+echo 1 > /dev/myled0 : LED点滅(信号機表現)  
 
 ---
 
@@ -38,7 +38,7 @@ echo 1 > /dev/myled0 : LED点滅
 ・sudo chmod 666 /dev/myled0  
 ・echo [0 or 1] > /dev/myled0  
   
-※「1」を入力した際はLEDが点灯したまま終了するため最後に「0」を入力してください。
+※「echo 1 > /dev/myled0」を実行した際はLEDが点灯したまま終了するため最後に「echo 0 > /dev/myled0」を実行してください。
 
 ---
 ### 動画
