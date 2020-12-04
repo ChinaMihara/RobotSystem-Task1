@@ -2,7 +2,7 @@
 
 ---
 
-### 内容
+### 課題内容
 
 第７回、第８回で作成したデバイスドライバーを改造し、オリジナルのものをGitHubに置く。  
 また、デバイスドライバーでデバイスを動かしている様子を撮影しYouTubeに公開する。
@@ -11,8 +11,9 @@
 
 ### オリジナルデバイスドライバー　説明
 
-コード：[https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c](https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c)
-横断歩道と車道が交差している(車道用が青の時、歩道用は赤)信号機をLEDで表現した。  
+コード：[https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c](https://github.com/ChinaMihara/RobotSystemTask1/blob/main/myled/myled.c)  
+  
+LED５つを点滅させ信号機(車道用、歩道用)を表現しました。  
 echo 0 > /dev/myled0 : 全LED消灯  
 echo 1 > /dev/myled0 : LED点滅  
 
@@ -36,6 +37,8 @@ echo 1 > /dev/myled0 : LED点滅
 ・sudo insmod myled.ko  
 ・sudo chmod 666 /dev/myled0  
 ・echo [0 or 1] > /dev/myled0  
+  
+※「1」を入力した際はLEDが点灯したまま終了するため最後に「0」を入力してください。
 
 ---
 ### 動画
