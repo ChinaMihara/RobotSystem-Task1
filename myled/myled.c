@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2020 ChinaMihara + RyuichiUeda. All right reserved.
+ * Copyright (C) 2020 China Mihara + Ryuichi Ueda. All right reserved.
  */
 
 
