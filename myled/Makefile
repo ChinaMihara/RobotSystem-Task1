@@ -1,3 +1,8 @@
+#SPDX-License-Identifier: GPL-2.0
+#
+#	Copyright (C) 2020 Ryuichi Ueda. All right reserved.
+#
+
 obj-m := myled.o
 
 myled.ko: myled.c
