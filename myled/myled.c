@@ -97,7 +97,7 @@ static int __init init_mod(void)
 
 	if(retval < 0)
 	{
-		printk(KERN_ERR "cdev_add failed. mojor:%d, minor:%d\n",MAJOR(dev),MINOR(dev));
+		printk(KERN_ERR "cdev_add failed. major:%d, minor:%d\n",MAJOR(dev),MINOR(dev));
 		return retval;
 	}
 		
